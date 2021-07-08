@@ -26,7 +26,7 @@ const router = new VueRouter({
 			path: '/designer',
 			name: '设计',
 			component: designer,
-			meta: {
+			meta: { 
 				requireAuth: false
 			}
 		},
